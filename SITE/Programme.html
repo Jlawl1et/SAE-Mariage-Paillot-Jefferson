@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Programme</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="script.js"></script>
+
+</head>
+
+<style>
+
+  .slider {
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+    border-style: inset;
+  }
+  .slides{
+      width: calc(300px * 3);
+      animation: glisse 10s infinite;
+  }
+  .slide{
+        float:left;
+
+  }
+  @keyframes glisse {
+      0% {
+          transform: translateX(0);
+
+      }
+
+      10% {
+          transform: translateX(0);
+
+      }
+
+      33% {
+          transform: translateX(-300px);
+
+
+      }
+
+      66% {
+          transform: translateX(-600px);
+
+
+      }
+
+
+      100% {
+          transform: translateX(0);
+
+
+      }
+
+  }
+
+  .programme h3{
+    font-size: 30px;
+    text-align: center;
+    width: 99.7%;
+
+
+  }
+
+  .grid {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: auto;
+        font: caption;
+
+  }
+
+  .grid p {
+
+        width: 300px;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        border-left: dashed black;
+
+  }
+  .grid h2{
+
+        width: 300px;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        background: rgba(19, 14, 2, 0.48);
+        border-left: dashed black;
+}
+
+.grid img {
+
+  border-style: inset;
+  height: 300px;
+}
+
+nav {
+
+  margin: 30px;
+  height:92%;
+}
+
+ a { color: black; }
+
+.table h3{
+    font-size: 30px;
+    text-align: center;
+    background-color:  rgba(144, 158, 162, 1);
+    font-family:'poppins',sans-serif;
+  }
+
+.menubouffe{
+
+  display: flex;
+  justify-content: center;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  font-family:'poppins',sans-serif;
+  font-size: 30px;
+}
+
+.table ul{
+  background-color: gold;
+}
+
+</style>
+<body>
+  <header>
+    <div class="wrapper">
+          <div class="logo">
+              <img src="photos/logocarre.png">
+          </div>
+          <ul class="nav-area">
+            <li><a href="pageaccueil.html"class="link">Accueil</a></li>
+            <li><a href="Formulaire.html"class="link">Formulaire</a></li>
+            <li><a href="Programme.html"class="link">Programme</a></li>
+            <li><a href="#menue"class="link">Menu</a></li>
+            <li><a href="photos/invit.jpg"class="link">Carte d'invitation</a></li>
+          </ul>
+    </div>
+  </header>
+  <nav>
+      <div class="programme">
+          <h3>Programme du mariage de Al & Dana le 13 Février 2022</h3>
+
+          <div class="grid">
+              <div><h2>10h00</h2></div>
+              <div><h2>12h00</h2></div>
+              <div><h2>13h00</h2></div>
+              <div><h2>14h00</h2></div>
+              <div><p>Cérémonie de l'état civil </p></div>
+              <div><p>Communion à l'église </p></div>
+              <div><p>Ouverture de la salle de fête<br> </p></div>
+              <div><p>Balade & séance photo</p></div>
+              <div>
+                <img src="photos/mairie1.jpg" alt="" />
+              </div>
+              <div>
+                <img src="photos/eglise1.jpg" alt="" />
+            </div>
+              <div>
+                <img src="photos/fete1.jpg" alt="" />
+              </div>
+              <div>      <div class="slider">
+                <div class="slides">
+                    <div class=slide><img src="photos/parc1.jpg" alt="" /></div>
+                    <div class=slide><img src="photos/parc2.jpg" alt="" /></div>
+                    <div class=slide><img src="photos/parc3.jpg" alt="" /></div>
+                </div>
+              </div>
+              </div>
+              <div><p><a href="https://www.google.fr/maps/place/Mairie+De+Lyon/@45.7563146,4.8243353,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4ebad113b6ac1:0x699ea0c827d3610!8m2!3d45.7563146!4d4.826524">Mairie De Lyon, 19 Quai Tilsitt, 69002 Lyon</a></p></div>
+              <div><p><a href="https://www.google.fr/maps/place/%C3%89glise+de+la+R%C3%A9demption/@45.7715451,4.8424839,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eaf1b974ef2b:0xfaef9a9a9ee400a1!8m2!3d45.7716464!4d4.8446519" >Pl. Puvis de Chavannes, 69006 Lyon</a></p></div>
+              <div><p><a href="https://www.google.fr/maps/place/Salle+Des+F%C3%AAtes+Cours+Bayard/@45.7418308,4.8232461,15.96z/data=!4m5!3m4!1s0x47f4ebcb180571cd:0x7966d3ade0f20ab3!8m2!3d45.7424435!4d4.8242875">Salle Des Fêtes Cours Bayard, 32Bis Cr Bayard, 69002 Lyon</a></p></div>
+              <div><p><a href="https://www.google.fr/maps/place/Parc+de+la+T%C3%AAte+d'Or/@45.7774032,4.8530257,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eaeb185f2a45:0xef56b64bed8543c!8m2!3d45.7774032!4d4.8552144">Situé à 10 minutes à pied à l'est de l'église</a></p></div>
+              <div><h2>19h00</h2></div>
+              <div><h2>20h00</h2></div>
+              <div><h2>21h00</h2></div>
+              <div><h2>6h00</h2></div>
+              <div><p>Dîner de mariage</p></div>
+              <div><p>Arrivée des mariés</p></div>
+              <div><p> Gâteau <br> </p></div>
+              <div><p> Fermeture de la salle</p></div>
+              <div>
+                <img src="photos/diner1.jpg" alt="" />
+              </div>
+              <div>
+                <img src="photos/entre1.jpeg" alt="" />
+            </div>
+              <div>
+                <img src="photos/gateau1.jpg" alt="" />
+              </div>
+              <div>      <div class="slider">
+                <img src="photos/fermer1.jpg" alt="" />
+              </div>
+          </div>
+      
+      </div>
+  </nav>
+  <nav>
+      <div class="menubouffe">
+       
+        <div>
+        <a id="menue" href="photos/menu-vegetarien.jpg"><img src="photos/menu-vegetarien.jpg" alt="Image" height="700px"></a>
+        </div>
+        <div>
+        <a href="photos/menu-simple.png"><img src="photos/menu-simple.png" alt="Image" height="700px"></a> 
+        </div>
+      </div>
+
+
+  </nav>  
+  
+  <footer>
+          <div class="footer-content">
+                <h3>Avec la participation de Sephora</h3>
+                <p>reseaux sociaux</p>
+                <ul class="socials">
+                  <li><a href="https://www.youtube.com/watch?v=zQmn2NxFp14"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.youtube.com/watch?v=zQmn2NxFp14"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://www.youtube.com/watch?v=zQmn2NxFp14"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://www.youtube.com/watch?v=zQmn2NxFp14"><i class="fa fa-snapchat"></i></a></li>
+                  <li><a href="https://www.youtube.com/watch?v=zQmn2NxFp14"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy;2022 Jeff inc.</p>
+  </footer>
+</body>
+</html>
